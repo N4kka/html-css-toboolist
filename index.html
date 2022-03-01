@@ -9,11 +9,59 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div>
             <img id="logo-img" src="img/Logo.png" alt="Logo Boolean">
             <h1 id="logo-text">Toboolist</h1>
         </div>
     </header>
+
+    <nav>
+        <div class="container">
+            <div class="buttons">
+                <button id="first-button">Add Task</button>
+                <button id="second-button">Add Section</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <ul class="tasks">
+                <li>&#9662 <strong>New Task</strong>
+                    <ul class="tasks">
+                        <li><span class="check">&#10003</span> Quarterly Newsletter <button class="category editorial">Editorial</button></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="tasks">
+                <li>&#9662 <strong>Today</strong>
+                    <ul class="tasks">
+                        <li><span class="check">&#10003</span> Recluiting blog post <button class="category editorial">Editorial</button></li>
+                        <br>
+                        <li><span class="check">&#10003</span> Mobile app launch <button class="category q1">Q1 Goals</button></li>
+                        <br>
+                        <li><span class="cross">&#10005</span> Interview John H. <button class="category recruiting">Recruiting</button></li>
+                        <br>
+                        <li><span class="check">&#10003</span> Summit update to mobile storefronts <button class="category mobile">Mobile</button></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="tasks">
+                <li>&#9662 <strong>Upcoming</strong>
+                    <ul class="tasks">
+                        <li><span class="cross">&#10005</span> Schedule meeting with Alex</li>
+                        <br>
+                        <li><span class="check">&#10003</span> Homepage refresh <button class="category website">Website</button></li>
+                        <br>
+                        <li><span class="check">&#10003</span> Onboard new Sales team members <button class="category sales">Sales</button></li>
+                        <br>
+                        <li><span class="check">&#10003</span> Review editorial calendar <button class="category editorial">Editorial</button></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </main>
     
 </body>
 </html>
